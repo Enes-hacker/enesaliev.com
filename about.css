@@ -1,0 +1,23 @@
+/*NAVBAR*/
+.nav-item a {
+    color: white;
+}
+
+.dropdown-item {
+    color: white;
+}
+
+.nav-link:hover {
+    color: green !important;
+}
+
+.navbar-brand{
+    color: white !important;
+    letter-spacing: 0.5rem;
+}
+
+.navbar-brand:hover{
+    color: green !important;
+}
+
+/*NAVBAR*/
