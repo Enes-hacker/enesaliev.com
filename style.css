@@ -134,8 +134,12 @@
     .about-me{
         background: rgba(0, 0, 0, 0.77);
         height: 15rem;
-        width: 20rem;
+        width: 23rem;
         
+    }
+
+    .about-me h1, h2{
+        padding: 1rem;
     }
 
     .headerr {
@@ -155,7 +159,7 @@
     }
 
     .image-section{
-        background: url(images/matrixEnes3.jpg);
+        background: url(images/matrixEnes2.jpg);
         background-attachment: fixed;
         background-position: center center;
         background-repeat: repeat;
@@ -170,7 +174,7 @@
 
 @media (max-width:676px) {
     .image-section{
-        background: url(images/matrixEnes3.jpg);
+        background: url(images/matrixEnes2.jpg);
         background-attachment: fixed;
         background-position: center center;
         background-repeat: repeat;
