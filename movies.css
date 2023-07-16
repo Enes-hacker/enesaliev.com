@@ -1,5 +1,5 @@
 .movies {
-    background: url(images/movies.jpg);
+    background: url(./images/movies.jpg);
     background-attachment: fixed;
     height: 40vh;
     background-position: center center;
