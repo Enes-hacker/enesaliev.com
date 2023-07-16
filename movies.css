@@ -1,0 +1,15 @@
+.movies {
+    background: url(images/movies.jpg);
+    background-attachment: fixed;
+    height: 40vh;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.movies h2 {
+    font-size: 90px;
+    color: white;
+    font-family: cinzel, Georgia, serif;
+}
