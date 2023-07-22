@@ -1,3 +1,8 @@
+body {
+   background: url(images/matrix2.jpg);
+   background-attachment: fixed;
+   background-size: cover;
+}
 /*NAVBAR*/
 .nav-item a {
     color: white;
@@ -193,6 +198,7 @@
  display: flex;
  justify-content: center;
  align-items: center;
+ color: white;
 }
 .quotes{
    padding: 5rem;
@@ -288,6 +294,7 @@ h3 {
 
 .redpill h5, .redpill p{
     font-family: 'Allura', cursive;
+    color: white;
 }
 
 .matrix svg{
@@ -305,10 +312,12 @@ h3 {
 
 .matrix h5, .matrix p{
     font-family: 'Allura', cursive;
+    color: white;
 }
 
 .rabbit h5, .rabbit p{
     font-family: 'Allura', cursive;
+    color: white;
 }
 
 .rabbit{
