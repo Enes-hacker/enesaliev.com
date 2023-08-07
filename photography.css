@@ -1,3 +1,8 @@
+body {
+  background:url(photography/bg-photo.jpg);
+
+}
+
 .photos {
     background: url(images/photography3.jpg);
     background-attachment: fixed;
@@ -45,6 +50,39 @@
   
 .image-container:hover {
     opacity: 0.7;
+}
+
+/*filter*/
+.hiding {
+  animation: hiding-animation 1s;
+}
+
+.showing {
+  animation: showing-animation 1s;
+}
+
+@keyframes showing-animation {
+  from {
+      transform: scale(0);
+
+  }
+
+  to {
+      transform: scale(1);
+  }
+
+}
+
+@keyframes hiding-animation {
+  from {
+      transform: scale(1);
+
+  }
+
+  to {
+      transform: scale(0);
+  }
+
 }
  
  
