@@ -1,3 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Open+Sans:wght@400;700&family=Philosopher:wght@700&family=Pinyon+Script&family=Roboto+Mono:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+
+h1, h2, h3, p{
+    font-family: 'Open Sans', sans-serif;
+    /*font-family: 'Philosopher', sans-serif;*/
+    /*font-family: 'Roboto Mono', monospace;*/
+
+}
+
+body{
+    background: url(images/about-bg.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+}
 /*NAVBAR*/
 .nav-item a {
     color: white;
@@ -19,5 +33,29 @@
 .navbar-brand:hover{
     color: green !important;
 }
-
 /*NAVBAR*/
+
+/*ABOUT ME*/
+.about-me{
+    background: rgba(102,102,101,0.5);
+}
+
+.about-me-info {
+    font-size: 1.3rem;
+  
+}
+
+.about-me-info span{
+    letter-spacing: 0.3rem;
+}
+
+.me {
+    filter: grayscale(100%);
+    /*filter: contrast(0.9);*/
+    /*filter: saturate(0.5);*/
+    /*filter: sepia(9.7);*/
+
+
+}
+
+/*ABOUT ME END*/
