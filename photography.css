@@ -22,6 +22,15 @@ body {
     font-size: 75px;
 }
 
+@media (max-width:600px) {
+  .photos h2 {
+    color: white;
+    font-family: cinzel, Georgia, serif;
+    text-align: center;
+    font-size: 55px;
+}
+}
+
 .image-container {
     position: relative;
     display: inline-block;
