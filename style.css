@@ -253,9 +253,13 @@ body {
     transform: scale(1.1); /*makes it 10% bigger*/
   }
 
+
+
 /*My skills end*/
 
 /*My Projects*/
+
+
 .projects {
     background: url(images/techSkills.jpg);
     background-attachment: fixed;
@@ -324,6 +328,101 @@ h3 {
     text-align: center;
 }
 /*Success end*/
+
+/*CONTACT*/
+.contact-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #000101;
+}
+
+.contact-left{
+   display: flex;
+   flex-direction: column;
+   align-items: start;
+   gap: 20px;
+}
+
+.contact-left-title h2{
+   font-weight: 600;
+   font-size: 40px;
+   margin-bottom: 15px;
+   background-image: linear-gradient(180deg, green, lightgreen);
+   -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent; 
+ -moz-background-clip: text;
+ -moz-text-fill-color: transparent;
+}
+
+.contact-left-title hr{
+    border: none;
+    width: 120px;
+    height: 5px;
+    background-color: gold;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+}
+
+.contact-inputs{
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    color: #666;
+    border-radius: 50px;
+}
+
+.contact-left textarea{
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 20px;
+}
+
+.contact-inputs:focus{
+    border: 2px solid green; /*the border becomes green when we click on the specific area*/
+}
+
+.contact-inputs::placeholder{
+    color: #262c3c;
+}
+
+.contact-left button{
+    border: unset;
+    padding: 1rem 2rem;
+    border-radius: 3rem;
+    background: linear-gradient(to bottom, green, lightgreen);
+    font-size: 16px;
+    gap: 10px;
+    
+}
+
+.contact-left button:hover{
+    cursor: pointer;
+    opacity: 0.7; 
+}
+
+.contact-right img{
+    width: 700px;
+
+}
+
+@media (max-width:800px) {
+    .contact-inputs{
+        width: 80vw;
+    }
+
+    .contact-right img{
+        display: none;
+    
+    }
+}
+
+/*CONTACT*/
 
 /*FOOTER*/
 .footer-section{
